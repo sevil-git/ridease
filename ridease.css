@@ -17,7 +17,7 @@ nav{
     position: absolute;
     background-color: #dcc91c ;
     display: flex;
-    width: 100%;
+    width: 100vh;
     margin:0;
     padding: 20px 0;
     align-items: center;
@@ -161,9 +161,6 @@ footer {
 }
 footer .list ul li a{
     text-decoration: none;
-    position: flex;
-    align-items: last baseline;
-    
     color: #dcc91c;
 	font-weight: bold;
 	text-transform: capitalize;
