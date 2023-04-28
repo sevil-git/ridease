@@ -5,7 +5,7 @@
 }
 nav{
     position: relative;
-    background-color: #c2b939;
+    background-color: #dcc91c ;
     display: flex;
     width: 100%;
     margin: auto;
@@ -14,61 +14,32 @@ nav{
     justify-content: space-between;
 }
 
+.nav .logo{
+
+}
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 5px  10px;
 }
 nav ul li a{
-	color: white;
+	color: #000000;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
 }
 nav ul li a:hover{
-	color: #000000;
+	color: white;
     transition: .4s;
 }
 
-.left img{
-    
-    width: 100px;
-}
-.left p{
-    margin-inline:22px ;
-    margin-top: 25px;
-}
-.right p{
-    margin-inline:22px ;
-    margin-top: 25px;
-
-}
-.right i{
-    margin-top: 22px;
-    font-size: 22px;
-}
-.right button{
-    width: 100px;
-    height: 36px;
-    background-color: #fff;
-    color: black;
-    font-weight: 600;
-    border: none;
-    border-radius: 22px;
-    margin-top: 12px;
-
-}
-.right button:hover{
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-}
 
 .card{
     background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1098,h_618/v1613521717/assets/7a/fd8982-6884-49b9-bb5f-28e6ff2cc0e8/original/Rider_Home_bg_tablet.png);
     background-repeat: no-repeat;
-    background-size: 1200px ;
     height: 600px;
+    justify-content:center;
+    padding-top: 20px;
 }
 .main{
     width: 400px;
@@ -84,8 +55,11 @@ nav ul li a:hover{
 .main .icon .car{
     margin-inline: 74px;
     margin-top: 31px;
-    border-bottom: 3px solid black;
-    
+    border-bottom: 3px solid black; 
+}
+.main .icon .car:hover{
+    cursor: pointer;
+    color: #dcc91c;
 }
 .icon .car i{
     font-size: 123%;
@@ -100,7 +74,7 @@ nav ul li a:hover{
      background-color: rgb(235, 232, 232);
      padding: 8px;
      margin-top: 8px;
-    border: none;
+    border: 2px;
     margin-left: 33px;
 }
 
